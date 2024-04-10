@@ -30,6 +30,8 @@ public class LoginApp extends JFrame implements ActionListener {
         panel.add(passwordField);
         panel.add(loginButton);
 
+        panel.setBackground(Color.LIGHT_GRAY);
+
         add(panel);
         setVisible(true);
     }
